@@ -16,7 +16,7 @@ gini <- function(df, x_ind, y_ind, val){
         filter(df[,x_ind]>=val) %>%
         group_by(cat=.[[2]]) %>%
         summarize(count=n()) %>%
-        http://as.data .frame
+        as.data.frame
 
     ln <- colSums(l)[["count"]]
 
@@ -24,7 +24,7 @@ gini <- function(df, x_ind, y_ind, val){
         filter(df[,x_ind]<val) %>%
         group_by(cat=.[[2]]) %>%
         summarize(count=n()) %>%
-        http://as.data .frame
+        as.data.frame
     
     rn <- colSums(r)[["count"]]
 
