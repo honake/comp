@@ -1,8 +1,8 @@
-# Comp
+# compy
 - 競技プログラミング用のコードスニペット集
 - Snippets for Competitive Programming
 
-## Python
+## Graph
 - UnionFind.py
   - Union Findを行うクラス
   - parentには以下を格納
